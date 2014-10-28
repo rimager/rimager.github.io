@@ -3,6 +3,4 @@ layout: post
 title: Farewell Wordpress!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Setting up with Jekyll and Github Pages for hosting seems like a better alternative to Wordpress for my personal website. So farewell, Wordpress, at least on this domain!
