@@ -9,5 +9,5 @@ There are times though when I'm grading some homework and the amount of confusio
 
 Note, I won't ever publish anyone's idenity. If you recognize yourself, I hope you'll be a sport, and chuckle about it. If it does bother you, you can always contact me to get off this list.
 
-1. _Q: What is the "same-origin policy" and how does it relate to AJAX?_
+1. *Q: What is the "same-origin policy" and how does it relate to AJAX?*
 A: The script page law. So you don't outsource your script to websites that don't allow it. With AJAX you can do this.
