@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Favorite Student Posts
+title: Favorite Student Answers
 ---
 
 I've been teaching Web Dev for a long time. From TAing during my grad student years at UF, to part-time and now full time at MIU. I've had a lot of fun with my students in all these years and it's been a great privilege to meet such a unique collection of talented individuals. 
