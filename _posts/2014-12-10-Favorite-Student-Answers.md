@@ -9,13 +9,17 @@ There are times though when I'm grading some homework and the amount of confusio
 
 Note, I won't ever publish anyone's idenity. If you recognize yourself, I hope you'll be a sport, and chuckle about it. If it does bother you, you can always contact me to get off this list.
 
-* Q: What is the "same-origin policy" and how does it relate to AJAX?
+###Q: What is the "same-origin policy" and how does it relate to AJAX?
 A: The script page law. So you don't outsource your script to websites that don't allow it. With AJAX you can do this.
 
-* This one isn't really a question from a student, just the following statement. It's 1 minute before the end of class on the last day of classes and the Final Project is Due. 
+###Implement a web form with a dropdown of colors for a T-Shirt. Using PHP, calculate the price for the number of items bought for the colour selected.The price per item depends on the selected colour, where: Blue, Green: $10 Red: $3, White: $40
+Answer: $40 = 2
+
+###Q: Write a tutorial article on your favorite Design Tool (Ai, Photoshop) and publish it on your blog. Paste the URL to the article below.
+A: I don't know
+
+This one isn't really a question from a student, just the following statement. It's 1 minute before the end of class on the last day of classes and the Final Project is Due. 
 Student: "So, I haven't been here for the last 2 weeks and I was wondering if you could quickly give me an example of how to use this API I've never used so I can start to work on my project."
 
-* Implement a web form with a dropdown of colors for a T-Shirt. Using PHP, calculate the price for the number of items bought for the colour selected.The price per item depends on the selected colour, where: Blue, Green: $10 Red: $3, White: $40
-Answer: $40 = 2
 
 
