@@ -18,6 +18,10 @@ Answer: $40 = 2
 ###Q: Write a tutorial article on your favorite Design Tool (Ai, Photoshop) and publish it on your blog. Paste the URL to the article below.
 A: I don't know
 
+
+###Q: What are the differences between the monospace, helvetica, and arial font families? 
+A: monospace is more like for paragraphs. Helvetica is more for Headlines. Arial is more for Titles.
+
 This one isn't really a question from a student, just the following statement. It's 1 minute before the end of class on the last day of classes and the Final Project is Due. 
 Student: "So, I haven't been here for the last 2 weeks and I was wondering if you could quickly give me an example of how to use this API I've never used so I can start to work on my project."
 
