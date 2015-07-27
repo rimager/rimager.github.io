@@ -5,7 +5,7 @@ layout: post
 
 I recently encountered an issue with my WordPress Multisite installation that took me all weekend to figure out. In the hopes of helping someone stuck in the same boat, here's the fix.
 
-# The Problem: WordPress wp-admin doesn't load because of a redirect loop
+## The Problem: WordPress wp-admin doesn't load because of a redirect loop
 
 Quite suddenly, I could not longer access the wp-admin section of my Multisite installation. Chrome reported that "The webpage at http://irnetwork.us/wp-admin/ has resulted in too many redirects. Clearing your cookies for this site or allowing third-party cookies may fix the problem. If not, it is possibly a server configuration issue and not a problem with your computer."
 
@@ -19,7 +19,7 @@ Since I could access wp-login.php, but no stylesheets coming from within the wp-
 
 ![wp-login.php redirect loop](http://i.imgur.com/rLkhMvCm.png)
 
-# The solution: Missing permissions in .htaccess file in wp-admin folder
+## The solution: Missing permissions in .htaccess file in wp-admin folder
 
 I investigated the wp-admin folder to see if there was a php.ini file located there as [Victor Font has documented](http://victorfont.com/fix-wp-multisite-wp-admin-redirect-loop/), and checked all permissions. All was good on that end so only one culprit remained: the .htaccess file.
 
