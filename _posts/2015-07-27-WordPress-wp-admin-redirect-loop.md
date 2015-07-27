@@ -25,27 +25,17 @@ I investigated the wp-admin folder to see if there was a php.ini file located th
 
 And indeed, it turns out that the permissions for my IP address were missing:
 
-```
+```apache hljs
 AuthName "WP Admin"
-
 AuthUserFile /dev/null
-
 AuthGroupFile /dev/null
-
 AuthName "WordPress Admin Access Control"
-
 AuthType Basic
-
 <LIMIT GET>
-
 order deny,allow
-
 deny from all
-
 # whitelist office
-
 allow from 161.38.221.135
-
 </LIMIT>
 ```
 
