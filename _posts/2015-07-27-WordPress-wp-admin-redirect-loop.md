@@ -25,7 +25,7 @@ I investigated the wp-admin folder to see if there was a php.ini file located th
 
 And indeed, it turns out that the permissions for my IP address were missing:
 
-```apacheconf
+```apache
 AuthName "WP Admin"
 AuthUserFile /dev/null
 AuthGroupFile /dev/null
