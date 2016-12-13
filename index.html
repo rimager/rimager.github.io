@@ -3,27 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Rima Gerhard Wev Developer Portfolio">
+	<meta name="author" content="Rima Gerhard">
 	
-	<title>Rima Gerhard - Portfolio</title>
+	<title>Rima Gerhard | Web Developer</title>
 	
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	
 	<!-- Plugins -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-text-rotator/1.0.0/simpletextrotator.min.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/et-line-font.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">
 	
-	<!-- Template core CSS -->
+	<!-- Core CSS -->
 	<link href="assets/css/style.css" rel="stylesheet">
 	
 	<!-- Custom css -->
 	<link href="assets/css/custom.css" rel="stylesheet">
+
+	<script src="https://use.fontawesome.com/f8fad2f33f.js"></script>
+
 </head>
 <body>
 
@@ -52,18 +53,20 @@
 		
 					<ul class="nav navbar-nav navbar-right">
 		
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+						<li>
+							<a href="#">Home</a>
 						</li>
 		
 						<li><a href="#">About</a></li>
 		
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-						</li>
-		
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">News</a>
+							<ul class="dropdown-menu">
+								<li><a href="index.html">Work</a></li>
+								<li><a href="index-2.html">Personal</a></li>
+								<li><a href="index-3.html">Client</a></li>
+								<li><a href="index-4.html">School</a></li>
+							</ul>							
 						</li>
 		
 		
@@ -78,69 +81,17 @@
 	<!-- /NAVIGATION -->
 
 	<!-- HOME -->
-	<section id="home" class="module-hero module-parallax module-fade module-full-height">
+	<section id="home" class="module-hero module-parallax module-fade bg-dark-50" data-background="assets/images/rima-gerhard-portrait.jpg">
 
-		<div class="hero-slider">
-			<ul class="slides">
-
-				<!-- SLIDE -->
-				<li class="bg-dark">
-
-					<div class="slidebg slide-zoom bg-dark-30" style="background-image:url(assets/images/hero-slider-1.jpg)"></div>
-
-					<div class="hs-caption container">
-						<div class="caption-content">
-							<div class="hs-title-size-3 font-alt m-b-20">
-								Hello, I'm Rima.
-							</div>
-							<div class="hs-title-size-1 font-inc">
-								A wonderful serenity has taken possession of my entire soul, like these<br/> sweet mornings of spring which I enjoy with my whole heart
-							</div>
-						</div>
-					</div>
-
-				</li>
-				<!-- /SLIDE -->
-
-				<!-- SLIDE -->
-				<li class="bg-light">
-
-					<div class="slidebg slide-zoom bg-light-30" style="background-image:url(assets/images/hero-slider-2.jpg)"></div>
-
-					<div class="hs-caption container">
-						<div class="caption-content left">
-							<div class="hs-title-size-3 font-alt m-b-20">
-								Incoming call
-							</div>
-							<div class="hs-title-size-1 font-inc">
-								A wonderful serenity has taken possession of my entire soul, like these<br/> sweet mornings of spring which I enjoy with my whole heart
-							</div>
-						</div>
-					</div>
-
-				</li>
-				<!-- /SLIDE -->
-
-				<!-- SLIDE -->
-				<li class="bg-dark">
-
-					<div class="slidebg slide-zoom bg-dark-50" style="background-image:url(assets/images/hero-slider-3.jpg)"></div>
-
-					<div class="hs-caption container">
-						<div class="caption-content right">
-							<div class="hs-title-size-3 font-alt m-b-20">
-								Yellow coat
-							</div>
-							<div class="hs-title-size-1 font-inc">
-								A wonderful serenity has taken possession of my entire soul, like these<br/> sweet mornings of spring which I enjoy with my whole heart
-							</div>
-						</div>
-					</div>
-
-				</li>
-				<!-- /SLIDE -->
-
-			</ul>
+		<div class="hs-caption container">
+			<div class="caption-content">
+				<div class="hs-title-size-1 font-inc text-uppercase m-b-20">
+					Hello, I'm Rima.
+				</div>
+				<div class="hs-title-size-3 font-alt">
+					I'm a <span class="rotate">Web Designer | Web Developer | Book Worm | Bicycle Enthusiast</span>
+				</div>
+			</div>
 		</div>
 
 	</section >
@@ -160,10 +111,10 @@
 
 						<ul id="filters" class="filter font-inc">
 							<li><a href="#" data-filter="*" class="current wow fadeInUp">All</a></li>
-							<li><a href="#" data-filter=".illustration" class="wow fadeInUp" data-wow-delay="0.2s">Illustration</a></li>
-							<li><a href="#" data-filter=".marketing" class="wow fadeInUp" data-wow-delay="0.4s">Marketing</a></li>
-							<li><a href="#" data-filter=".photography" class="wow fadeInUp" data-wow-delay="0.6s">Photography</a></li>
-							<li><a href="#" data-filter=".webdesign" class="wow fadeInUp" data-wow-delay="0.8s">Web Design</a></li>
+							<li><a href="#" data-filter=".work" class="wow fadeInUp" data-wow-delay="0.8s">Work</a></li>						
+							<li><a href="#" data-filter=".personal" class="wow fadeInUp" data-wow-delay="0.2s">Personal</a></li>
+							<li><a href="#" data-filter=".client" class="wow fadeInUp" data-wow-delay="0.4s">Client</a></li>
+							<li><a href="#" data-filter=".school" class="wow fadeInUp" data-wow-delay="0.6s">School</a></li>
 						</ul>
 
 					</div>
@@ -176,7 +127,7 @@
 			<ul id="works-grid" class="works-grid works-grid-masonry works-grid-3 works-hover-w">
 
 				<!-- PORTFOLIO ITEM -->
-				<li class="work-item illustration webdesign">
+				<li class="work-item work">
 					<a href="portfolio-single-1.html">
 						<div class="work-image">
 							<img src="assets/images/work-masonry-1.jpg" alt="">
@@ -192,7 +143,7 @@
 				<!-- /PORTFOLIO ITEM -->
 
 				<!-- PORTFOLIO ITEM -->
-				<li class="work-item marketing photography">
+				<li class="work-item personal">
 					<a href="portfolio-single-1.html">
 						<div class="work-image">
 							<img src="assets/images/work-1.jpg" alt="">
@@ -208,7 +159,7 @@
 				<!-- /PORTFOLIO ITEM -->
 
 				<!-- PORTFOLIO ITEM -->
-				<li class="work-item illustration photography">
+				<li class="work-item client">
 					<a href="portfolio-single-1.html">
 						<div class="work-image">
 							<img src="assets/images/work-1.jpg" alt="">
@@ -224,7 +175,7 @@
 				<!-- /PORTFOLIO ITEM -->
 
 				<!-- PORTFOLIO ITEM -->
-				<li class="work-item marketing photography">
+				<li class="work-item school">
 					<a href="portfolio-single-1.html">
 						<div class="work-image">
 							<img src="assets/images/work-1.jpg" alt="">
@@ -240,7 +191,7 @@
 				<!-- /PORTFOLIO ITEM -->
 
 				<!-- PORTFOLIO ITEM -->
-				<li class="work-item illustration webdesign">
+				<li class="work-item work">
 					<a href="portfolio-single-1.html">
 						<div class="work-image">
 							<img src="assets/images/work-masonry-1.jpg" alt="">
@@ -256,7 +207,7 @@
 				<!-- /PORTFOLIO ITEM -->
 
 				<!-- PORTFOLIO ITEM -->
-				<li class="work-item marketing webdesign">
+				<li class="work-item work">
 					<a href="portfolio-single-1.html">
 						<div class="work-image">
 							<img src="assets/images/work-1.jpg" alt="">
@@ -300,17 +251,13 @@
 
 				<div class="row">
 
-					<!-- MODULE TITLE -->
-					<div class="col-sm-6">
-						<h2 class="module-title font-alt">Someone quote</h2>
-					</div>
-					<!-- /MODULE TITLE -->
-
 					<!-- BLOCKQUOTE -->
-					<div class="col-sm-6">
-						<blockquote class="font-serif align-right">
-							<p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
-							<p class="font-inc font-uppercase">- Thomas Anderson</p>
+					<div class="col-sm-12 col-lg-6 col-lg-offset-3">
+						<blockquote class="font-serif text-center">
+							<p>"Learn CSS in 24 Hours". After 3 hours, you've learnt all of CSS. 
+							</p>
+							<p>Hours 3 to eternity are spent trying to vertically center stuff.</p>
+							<p class="font-inc font-uppercase">- <a href="https://twitter.com/iamdevloper?lang=en">@iamdevloper</a></p>
 						</blockquote>
 					</div>
 					<!-- /BLOCKQUOTE -->
@@ -323,7 +270,7 @@
 		<!-- /TESTIMONIAL -->
 
 		<!-- ABOUT -->
-		<section class="module p-t-0 p-b-0" data-background="assets/images/section-4.jpg">
+		<section class="module p-t-0 p-b-0" data-background="assets/images/about.jpg">
 
 			<div class="container-fluid">
 
@@ -334,17 +281,17 @@
 						<h2 class="module-title font-alt">About</h2>
 
 						<div class="module-subtitle font-inc">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+							I am a web developer located in Miami, FL.
 						</div>
 
-						<p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
+						<p>With a solid background in Computer Science and Engineering, and a love of art and design, I have been captured by the beauty and challenge of Web Design and Development for the last 10+ years. To me, there is nothing more fun and engaging than seeing cold, hard logic and scientific scripts turn into beautiful, usable, creative experiences for everyone to see and engage with.</p>
 
-						<p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
+						<p>I am a teacher, but I am also a life-long learner. Technology changes constantly, and no web developer can ever rest on their laurels. Luckily, I love to read and have the patience and persistence to learn about new tools, techniques, and technologies as often as I can.</p>
 
 						<ul class="social-list">
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-googleplus"></span></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 						</ul>
 
 					</div>
@@ -438,20 +385,15 @@
 	<!-- Javascript files -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.0.0/jquery.mb.YTPlayer.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/simple-text-rotator/1.0.0/jquery.simple-text-rotator.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.24/gmaps.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/jquery.flexslider.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-	<script src="assets/js/contact.js"></script>
 	<script src="assets/js/custom.js"></script>
 
 </body>
